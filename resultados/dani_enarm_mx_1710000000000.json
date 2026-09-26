@@ -1,0 +1,36 @@
+{
+  "nombre": "Daniel",
+  "email": "dani@enarm.mx",
+  "fecha": "2026-09-25T18:00:00.000Z",
+  "puntaje": 215,
+  "porcentaje": 76,
+  "especialidades": {
+    "Medicina Interna": { "total": 98, "aciertos": 75 },
+    "Pediatría": { "total": 70, "aciertos": 60 },
+    "Ginecología y Obstetricia": { "total": 56, "aciertos": 45 },
+    "Cirugía General": { "total": 28, "aciertos": 20 },
+    "Inglés": { "total": 28, "aciertos": 15 }
+  },
+  "detalle": [
+    {
+      "id": "REQ-001",
+      "pregunta": "¿En dónde ubica usted la lesión?",
+      "caso_clinico": "Hombre de 26 años que llega a urgencias con síndrome piramidal faciocorporal izquierdo, sensibilidad conservada.",
+      "especialidad": "Medicina Interna",
+      "respuesta_alumno": "Área 4 de Brodmann derecha",
+      "respuesta_correcta": "Área 4 de Brodmann derecha",
+      "es_correcta": true,
+      "justificacion": "Justificación clínica revisando la bibliografía GPC."
+    },
+    {
+      "id": "REQ-002",
+      "pregunta": "¿Cuál de los siguientes síndromes es el más probable?",
+      "caso_clinico": "Hombre de 52 años con dificultad para peinarse, levantarse de la cama e incorporarse, con marcha basculante.",
+      "especialidad": "Medicina Interna",
+      "respuesta_alumno": "Polineuropático",
+      "respuesta_correcta": "Miopático",
+      "es_correcta": false,
+      "justificacion": "Justificación clínica revisando la bibliografía GPC."
+    }
+  ]
+}

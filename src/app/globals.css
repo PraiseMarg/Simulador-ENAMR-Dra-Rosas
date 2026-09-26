@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @media print {
+    body {
+      background-color: white;
+    }
+  }
+}

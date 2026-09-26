@@ -1,0 +1,177 @@
+ID,Pregunta / Caso Clínico,Opción A,Opción B,Opción C,Opción D,Respuesta Correcta
+1,"Paciente masculino de 7 meses de edad. tres días con diarrea acuosa sin moco o sangre, seis a 7 evacuaciones diarias y desde ayer 5 vómitos de contenido gástrico. la madre busca atención por irritabilidad y persistencia de la diarrea, así como disminución de la uresis. ef: fc 165 lpm, fr 34 rpm, temp 38ºc, spo2% 94 al aire ambiente, t/a 87/56. saliva filante, ojos relativamente hundidos, piel seca, signo de lienzo ++, lagrimas escasas. llenado capilar de 3 ss, pulsos periféricos presentes y rápidos. peristalsis presente. de acuerdo a las características clínicas descritas cual es el diagnóstico que tiene este paciente?",deshidratación leve,deshidratación grave,deshidratación moderada,choque hipovólemico,deshidratación moderada
+2,"De todos los signos de deshidratación, ¿cual de los siguientes se incluye entre los mas sensibles para el diagnóstico de deshidratación?",signo de lienzo,sed,ausencia de lagrimas,fontanela deprimida,signo de lienzo
+3,"Usted decide iniciar el manejo del paciente con vida suero oral, de acuerdo a la OMS este tiene una osmolaridad de:",245 mOsm/L,311 mOsm/L,200 mOsm/L,180 mOsm/L,245 mOsm/L
+4,De acuerdo al diagnóstico establecido el manejo inicial debe ser de acuerdo al:,plan A,plan B,plan C,mantenimiento de Holliday Segar,plan B
+5,¿Cuál de las siguientes es una indicación para pasar de vida suero oral a líquidos intravenosos?,fracaso al plan A,distensión abdominal,hipernatremia,sed intensa,distensión abdominal
+6,"Paciente masculino de 4 años de edad, antecedente de diarrea 4 días. EF: estuporoso, FC 180 lpm, FR 45 rpm, T/A 60/30 mmHg, llenado capilar 6 seg, pulsos periféricos ausentes. Diagnóstico:",Deshidratación moderada,Choque hipovolémico,Choque séptico,Deshidratación grave,Choque hipovolémico
+7,"En este paciente, ¿cuál es el volumen de carga de cristaloide inicial recomendado?",10 ml/kg,20 ml/kg,30 ml/kg,50 ml/kg,20 ml/kg
+8,"Si el paciente no mejora tras 3 cargas de cristaloides, usted considera:",Choque refractario a líquidos,Iniciar aminas,Choque séptico,Choque obstructivo,Choque refractario a líquidos
+9,El estudio de laboratorio inicial más útil para evaluar la perfusión tisular en este paciente es:,Biometría hemática,Electrolitos séricos,Lactato sérico,Creatinina,Lactato sérico
+10,"De acuerdo a las Guías de Sobreviviendo a la Sepsis Pediátrica, el objetivo de saturación venosa central de oxígeno es:",>60%,>70%,>80%,>90%,>70%
+11,"Lactante de 10 meses con estridor inspiratorio, tos perruna y disfonía. Diagnóstico más probable:",Laringotraqueítis (Crup),Epiglotitis,Aspiración de cuerpo extraño,Traqueítis bacteriana,Laringotraqueítis (Crup)
+12,Agente etiológico más frecuente de la laringotraqueítis:,Virus Sincitial Respiratorio,Virus Parainfluenza tipo 1,Adenovirus,Haemophilus influenzae,Virus Parainfluenza tipo 1
+13,Tratamiento de elección para un cuadro de Crup moderado a grave:,Salbutamol nebulizado,Dexametasona y adrenalina racémica,Antibióticos sistémicos,Esteroides inhalados únicamente,Dexametasona y adrenalina racémica
+14,Signo radiológico clásico en la laringotraqueítis:,Signo del pulgar,Signo de la torre o punta de lápiz,Signo de la moneda,Infiltrados parahiliares,Signo de la torre o punta de lápiz
+15,Escala utilizada para valorar la gravedad del Crup:,Escala de Silverman,Escala de Westley,Escala de Wood-Downes,Escala de Glasgow,Escala de Westley
+16,"Escolar de 8 años con fiebre alta, babeo, posición de trípode y estridor. Sospecha diagnóstica:",Laringotraqueítis,Epiglotitis,Retrofaringitis,Bronquiolitis,Epiglotitis
+17,Agente causal más importante en pacientes no vacunados con epiglotitis:,Staphylococcus aureus,Streptococcus pneumoniae,Haemophilus influenzae tipo b,Moraxella catarrhalis,Haemophilus influenzae tipo b
+18,Acción inmediata contraindicada en sospecha de epiglotitis:,Administrar oxígeno,Visualizar faringe con abatelenguas,Asegurar vía aérea en quirófano,Iniciar antibióticos,Visualizar faringe con abatelenguas
+19,Signo radiológico de la epiglotitis en proyección lateral:,Signo de la torre,Signo del pulgar,Signo del corazón,Signo de la silueta,Signo del pulgar
+20,Antibiótico de primera elección en epiglotitis:,Amoxicilina,Ceftriaxona,Eritromicina,Dicloxacilina,Ceftriaxona
+21,"Lactante de 3 meses con primer episodio de sibilancias, precedido de rinorrea y tos. Diagnóstico:",Asma bronquial,Bronquiolitis,Neumonía,Fibrosis quística,Bronquiolitis
+22,Principal virus causante de la bronquiolitis:,Adenovirus,Rhinovirus,Virus Sincitial Respiratorio (VSR),Influenza,Virus Sincitial Respiratorio (VSR)
+23,Tratamiento inicial recomendado por la GPC mexicana para bronquiolitis:,Salbutamol nebulizado,Epinefrina nebulizada,Aseo nasal y líquidos,Corticoides sistémicos,Aseo nasal y líquidos
+24,Factor de riesgo para bronquiolitis grave:,Prematurez,Alimentación al seno materno,Hijo único,Vivir en zona rural,Prematurez
+25,Escala para valorar dificultad respiratoria en lactantes con bronquiolitis:,Westley,Wood-Downes modificada por Ferres,Glasgow,Silverman-Andersen,Wood-Downes modificada por Ferres
+26,"Paciente de 6 años con crisis asmática. FC 130, FR 40, SaO2 91%. Tratamiento inicial:",Bromuro de ipratropio solo,Salbutamol nebulizado + corticoide sistémico,Antibióticos,Adrenalina subcutánea,Salbutamol nebulizado + corticoide sistémico
+27,"En el estado asmático refractario a manejo inicial, ¿qué fármaco IV puede usarse como rescate?",Aminofilina,Sulfato de magnesio,Bicarbonato,Furosemida,Sulfato de magnesio
+28,Dosis de salbutamol para nebulización continua en crisis grave:,0.5 mg/kg/hora,5 mg/kg/hora,0.1 mg/kg/hora,2 mg/kg/hora,0.5 mg/kg/hora
+29,Principal efecto secundario del uso excesivo de Salbutamol:,Hipopotasemia,Hipernatremia,Bradicardia,Hipotermia,Hipopotasemia
+30,Saturación de oxígeno meta en un paciente pediátrico con asma:,90-92%,94-98%,>99%,88-90%,94-98%
+31,"Lactante de 1 año con antecedente de atragantamiento súbito, sibilancias localizadas y tos persistente. Sospecha:",Neumonía,Cuerpo extraño en vía aérea,Bronquitis,Asma,Cuerpo extraño en vía aérea
+32,Maniobra de elección en lactante menor de 1 año con obstrucción completa de vía aérea por cuerpo extraño:,Maniobra de Heimlich,5 golpes en espalda y 5 compresiones torácicas,Barrido a ciegas con el dedo,Traqueostomía inmediata,5 golpes en espalda y 5 compresiones torácicas
+33,Maniobra de elección en niño mayor de 1 año con obstrucción completa de vía aérea:,Maniobra de Heimlich,Golpes interescapulares,Ventilación con bolsa válvula mascarilla,Posición de Trendelenburg,Maniobra de Heimlich
+34,Sitio más frecuente de alojamiento de cuerpos extraños en el árbol bronquial:,Bronquio principal derecho,Bronquio principal izquierdo,Carina,Tráquea superior,Bronquio principal derecho
+35,Estándar de oro para diagnóstico y extracción de cuerpo extraño:,Radiografía de tórax,Tomografía,Broncoscopia rígida,Broncoscopia flexible,Broncoscopia rígida
+36,Recién nacido de 2 horas de vida con frecuencia cardiaca de 40 lpm a pesar de ventilación efectiva. Acción a seguir:,Administrar adrenalina,Iniciar compresiones torácicas,Administrar calcio,Administrar bicarbonato,Iniciar compresiones torácicas
+37,Relación compresión:ventilación en reanimación neonatal (con un reanimador):,3:1,15:2,30:2,5:1,3:1
+38,Dosis de adrenalina IV en reanimación neonatal:,0.01 a 0.03 mg/kg,0.1 mg/kg,1 mg/kg,0.5 mg/kg,0.01 a 0.03 mg/kg
+39,Frecuencia cardiaca mínima para suspender compresiones en el recién nacido:,60 lpm,80 lpm,100 lpm,120 lpm,60 lpm
+40,Concentración de oxígeno inicial para iniciar reanimación en RN >35 semanas:,21%,40%,60%,100%,21%
+41,Paciente de 2 años con quemaduras en cara anterior de tronco y ambos brazos. Porcentaje de superficie corporal quemada (Regla de los 9):,18%,27%,36%,45%,27%
+42,Fórmula de Parkland para reanimación en quemados:,2 ml x kg x % SCTQ,4 ml x kg x % SCTQ,10 ml x kg x % SCTQ,100 ml x kg,4 ml x kg x % SCTQ
+43,Líquido de elección para reanimación inicial en grandes quemados:,Solución glucosada 5%,Solución Hartmann (Ringer Lactato),Solución Salina 0.45%,Gelatina,Solución Hartmann (Ringer Lactato)
+44,¿Cómo se debe administrar el volumen calculado por Parkland en las primeras 24 horas?,Todo en las primeras 8 horas,"50% en primeras 8 horas, 50% en siguientes 16 horas",Dividido en 3 partes iguales cada 8 horas,50% en primeras 12 horas,"50% en primeras 8 horas, 50% en siguientes 16 horas"
+45,Principal causa de muerte inmediata en incendios en lugares cerrados:,Quemaduras de tercer grado,Intoxicación por monóxido de carbono / Inhalación de humo,Choque hipovolémico,Infección,Intoxicación por monóxido de carbono / Inhalación de humo
+46,"Escolar con ingesta de cáustico hace 1 hora, presenta sialorrea y lesiones en mucosa oral. Acción inicial:",Provocar el vómito,Realizar lavado gástrico,Mantener ayuno y vigilancia,Administrar carbón activado,Mantener ayuno y vigilancia
+47,Estudio de elección para valorar extensión de daño por cáusticos:,Serie esofagogástrica,Endoscopia alta entre las 12-24 horas,TAC de abdomen,Ultrasonido,Endoscopia alta entre las 12-24 horas
+48,Contraindicación absoluta en ingesta de cáusticos:,Uso de esteroides,Realizar endoscopia,Inducir el vómito o dar sustancias neutralizantes,Administrar inhibidores de bomba de protones,Inducir el vómito o dar sustancias neutralizantes
+49,Complicación tardía más frecuente de la esofagitis por cáusticos:,Perforación gástrica,Estenosis esofágica,Adenocarcinoma,Fístula traqueoesofágica,Estenosis esofágica
+50,Grado de lesión endoscópica (Zagar) que indica solo eritema y edema:,Grado I,Grado IIa,Grado IIb,Grado III,Grado I
+51,"Niño de 3 años con somnolencia, miosis puntiforme, bradicardia y bradipnea. Sospecha de intoxicación por:",Atropina,Opioides,Anfetaminas,Cocaína,Opioides
+52,Antídoto específico para intoxicación por benzodiacepinas:,Naloxona,Flumazenil,N-acetilcisteína,Atropina,Flumazenil
+53,Antídoto para intoxicación por paracetamol:,Naloxona,N-acetilcisteína,Vitamina K,Azul de metileno,N-acetilcisteína
+54,Tratamiento de elección para intoxicación por organofosforados (síndrome colinérgico):,Fisostigmina,Atropina y Pralidoxima,Naloxona,Carbón activado únicamente,Atropina y Pralidoxima
+55,Dosis tóxica de paracetamol en pediatría:,>50 mg/kg,>100 mg/kg,>150 mg/kg,>200 mg/kg,>150 mg/kg
+56,"Lactante de 1 año con convulsión tónico-clónica generalizada de 3 minutos, posterior a fiebre de 39°C. Diagnóstico:",Epilepsia,Crisis febril simple,Crisis febril compleja,Meningitis,Crisis febril simple
+57,Definición de crisis febril compleja:,"Dura menos de 15 min, no recurre en 24h, generalizada","Dura más de 15 min, recurre en 24h o es focal",Ocurre en niños de 2 meses,No se asocia a fiebre,"Dura más de 15 min, recurre en 24h o es focal"
+58,Fármaco de primera línea para detener una crisis convulsiva prolongada (>5 min):,Fenitoína,Diazepam o Lorazepam IV/Rectal,Ácido valproico,Fenobarbital,Diazepam o Lorazepam IV/Rectal
+59,Rango de edad más común para crisis febriles:,6 meses a 5 años,1 mes a 10 años,0 a 6 meses,5 a 12 años,6 meses a 5 años
+60,Principal causa de estado epiléptico en niños conocidos con epilepsia:,Nuevas lesiones cerebrales,Niveles bajos de anticonvulsivantes / Omisión de dosis,Fiebre,Privación de sueño,Niveles bajos de anticonvulsivantes / Omisión de dosis
+61,"Escolar atropellado, Glasgow 7, desviación de la mirada. Acción prioritaria:",Radiografía de pelvis,Asegurar vía aérea (intubación) con control cervical,Administrar manitol,Realizar TAC de cráneo,Asegurar vía aérea (intubación) con control cervical
+62,Tríada de Cushing (signo de hipertensión intracraneal):,"Hipotensión, taquicardia, bradipnea","Hipertensión, bradicardia, alteraciones respiratorias","Hipertensión, taquicardia, fiebre","Hipotensión, bradicardia, miosis","Hipertensión, bradicardia, alteraciones respiratorias"
+63, Glasgow de 11 se clasifica como traumatismo craneoencefálico:,Leve,Moderado,Grave,Mínimo,Moderado
+64,Signo de Battle (equimosis retroauricular) sugiere fractura de:,Piso anterior de la base del cráneo,Piso medio de la base del cráneo (peñasco),Hueso frontal,Hueso nasal,Piso medio de la base del cráneo (peñasco)
+65,Manejo inicial del edema cerebral hiperémico en trauma:,Solución glucosada al 5%,Solución salina hipertónica o Manitol,Restricción severa de líquidos,Hipotermia inducida,Solución salina hipertónica o Manitol
+66,Recién nacido con gastrosquisis. Manejo inicial en sala de partos:,Reducción inmediata de las asas,Cubrir con gasas estériles y bolsa de polietileno (estéril),Colocación de sonda Foley,Alimentación inmediata,Cubrir con gasas estériles y bolsa de polietileno (estéril)
+67,"Niño de 4 años con masa abdominal que no cruza la línea media, hematuria y dolor. Sospecha:",Neuroblastoma,Tumor de Wilms,Teratoma,Intususcepción,Tumor de Wilms
+68,"Lactante de 8 meses con dolor abdominal paroxístico, evacuaciones en ""jalea de grosella"" y masa palpable. Diagnóstico:",Apendicitis,Intususcepción (Invaginación intestinal),Vólvulo intestinal,Divertículo de Meckel,Intususcepción (Invaginación intestinal)
+69,Estudio de imagen inicial y de elección para intususcepción:,Radiografía simple de abdomen,Ultrasonido abdominal,TAC con contraste,Colon por enema,Ultrasonido abdominal
+70,Tratamiento inicial de la intususcepción sin signos de perforación:,Cirugía abierta,Reducción hidrostática o neumática (enema),Antibióticos y observación,Aspiración gástrica,Reducción hidrostática o neumática (enema)
+71,Principal causa de abdomen agudo quirúrgico en niños mayores de 5 años:,Intususcepción,Apendicitis aguda,Divertículo de Meckel,Hernia inguinal incarcerada,Apendicitis aguda
+72,"Escolar con dolor en fosa ilíaca derecha, anorexia y signo de rebote positivo. Estándar de oro diagnóstico:",Ultrasonido abdominal,Tomografía Computarizada (TAC) de abdomen,Radiografía de abdomen,Resonancia magnética,Tomografía Computarizada (TAC) de abdomen
+73,"En menores de 2 años, el diagnóstico de apendicitis suele ser difícil por:",Presentación clínica atípica y rápida progresión,Ausencia de dolor,Ausencia de leucocitosis,No hay apéndice en esa edad,Presentación clínica atípica y rápida progresión
+74,Signo de psoas positivo sugiere:,Apéndice retrocecal,Apéndice pélvico,Apéndice preileal,Peritonitis generalizada,Apéndice retrocecal
+75,Tratamiento de elección para apendicitis no perforada:,Apendicectomía (laparoscópica o abierta),Antibióticos por 14 días,Observación por 24 horas,Drenaje percutáneo,Apendicectomía (laparoscópica o abierta)
+76,"Lactante de 1 mes con vómito proyectivo no biliar, hambre post-vómito y ""oliva"" palpable en epigastrio. Diagnóstico:",Reflujo gastroesofágico,Estenosis hipertrófica de píloro,Vólvulo gástrico,Atresia duodenal,Estenosis hipertrófica de píloro
+77,Alteración hidroelectrolítica y ácido-base típica en estenosis pilórica:,Acidosis metabólica e hiperpotasemia,Alcalosis metabólica hipoclorémica e hipopotasémica,Acidosis respiratoria,Alcalosis respiratoria,Alcalosis metabólica hipoclorémica e hipopotasémica
+78,Estudio de imagen de elección para confirmar estenosis pilórica:,Serie esofagogástrica,Ultrasonido pilórico,Radiografía simple,Endoscopia,Ultrasonido pilórico
+79,Tratamiento quirúrgico definitivo para estenosis de píloro:,Piloroplastia de Nissen,Piloromiotomía de Fredet-Ramstedt,Gastroenterostomía,Funduplicatura,Piloromiotomía de Fredet-Ramstedt
+80,Edad más frecuente de presentación de la estenosis hipertrófica de píloro:,2 a 8 semanas,6 a 12 meses,Al nacimiento,Después de los 2 años,2 a 8 semanas
+81,"Niño con antecedente de infección respiratoria hace 2 semanas, ahora con petequias, equimosis y plaquetas de 20,000. Sospecha:",Leucemia agudo,Púrpura Trombocitopénica Inmune (PTI),Hemofilia A,Enfermedad de von Willebrand,Púrpura Trombocitopénica Inmune (PTI)
+82,"Tratamiento de primera línea en PTI con sangrado activo o plaquetas <10,000:",Transfusión de plaquetas,Inmunoglobulina IV o Corticosteroides,Esplenectomía,Rituximab,Inmunoglobulina IV o Corticosteroides
+83,"Niño de 4 años con artralgias, dolor abdominal, petequias palpables en nalgas y piernas. Diagnóstico:",PTI,Púrpura de Henoch-Schönlein,Meningococcemia,Lupus eritematoso sistémico,Púrpura de Henoch-Schönlein
+84,Principal complicación orgánica de la Púrpura de Henoch-Schönlein:,Insuficiencia hepática,Compromiso renal (nefritis),Endocarditis,Meningitis,Compromiso renal (nefritis)
+85,"Enfermedad de Henoch-Schönlein, ¿qué tipo de vasculitis es?",Vasculitis de vasos grandes,Vasculitis por depósitos de IgA (vasos pequeños),Vasculitis de vasos medianos,Enfermedad autoinmune no vasculítica,Vasculitis por depósitos de IgA (vasos pequeños)
+86,"Adolescente con síncope durante ejercicio intenso, soplo sistólico que aumenta con maniobra de Valsalva. Sospecha:",Comunicación interauricular,Miocardiopatía hipertrófica obstructiva,Estenosis pulmonar,Tetralogía de Fallot,Miocardiopatía hipertrófica obstructiva
+87,Cardiopatía congénita cianógena más frecuente después del primer año de vida:,Transposición de grandes vasos,Tetralogía de Fallot,Persistencia del conducto arterioso,Comunicación interventricular,Tetralogía de Fallot
+88,Componentes de la Tetralogía de Fallot:,"CIA, estenosis mitral, hipertrofia VI, cabalgamiento","Estenosis pulmonar, CIV, hipertrofia VD, cabalgamiento aorta","CIV, CIA, Persistencia de conducto, estenosis aortica","Transposición, CIV, Estenosis, Hipertrofia","Estenosis pulmonar, CIV, hipertrofia VD, cabalgamiento aorta"
+89,"Tratamiento agudo de una ""crisis de hipoxia"" en Tetralogía de Fallot:",Posición genupectoral (rodilla al pecho) y oxígeno,Administrar digoxina,Administrar furosemida,Poner al paciente de pie,Posición genupectoral (rodilla al pecho) y oxígeno
+90,Causa más frecuente de insuficiencia cardiaca en lactantes:,Cardiopatías congénitas con cortocircuito de izquierda a derecha,Miocarditis viral,Fiebre reumática,Hipertensión arterial,Cardiopatías congénitas con cortocircuito de izquierda a derecha
+91,"Lactante de 5 meses con fiebre de 4 días, exantema, conjuntivitis no purulenta, labios agrietados y edema de manos. Diagnóstico:",Escarlatina,Enfermedad de Kawasaki,Sarampión,Mononucleosis infecciosa,Enfermedad de Kawasaki
+92,Tratamiento de elección para prevenir aneurismas coronarios en Kawasaki:,Antibióticos IV,Inmunoglobulina IV y Aspirina,Corticosteroides únicamente,Antivirales,Inmunoglobulina IV y Aspirina
+93,Complicación más grave de la Enfermedad de Kawasaki:,Insuficiencia renal,Aneurismas de las arterias coronarias,Sordera,Artritis crónica,Aneurismas de las arterias coronarias
+94,Criterio temporal de fiebre para diagnóstico de Kawasaki:,Mínimo 2 días,Mínimo 5 días,Mínimo 10 días,Mínimo 14 días,Mínimo 5 días
+95,Fase de la enfermedad de Kawasaki donde aparecen las descamaciones periungueales:,Fase aguda,Fase subaguda,Fase de convalecencia,Pródromo,Fase subaguda
+96,Dosis de adrenalina IM (1:1000) en anafilaxia pediátrica:,0.1 mg/kg,0.01 mg/kg (máximo 0.3-0.5 mg),1 mg/kg,0.5 mg total para todos,0.01 mg/kg (máximo 0.3-0.5 mg)
+97,Sitio de aplicación recomendado para la adrenalina en anafilaxia:,Vasto lateral del muslo (intramuscular),Brazo (deltoides),Subcutánea en abdomen,Glúteo,Vasto lateral del muslo (intramuscular)
+98,Mecanismo de acción de la adrenalina en anafilaxia:,Antagonista H1,"Agonista alfa-1, beta-1 y beta-2",Inhibidor de la triptasa,Antagonista de leucotrienos,"Agonista alfa-1, beta-1 y beta-2"
+99,Tiempo de observación recomendado tras resolución de anafilaxia por riesgo de reacción bifásica:,1 hora,4 a 6 horas (mínimo),24 horas obligatorias,No requiere observación,4 a 6 horas (mínimo)
+100,Fármaco de segunda línea que ayuda a reducir la respuesta cutánea en anafilaxia:,Difenhidramina (Antihistamínico H1),Ceftriaxona,Amikacina,Paracetamol,Difenhidramina (Antihistamínico H1)
+101,"Recién nacido de 3 días con distensión abdominal, vómito biliar y falta de expulsión de meconio. Sospecha:",Enfermedad de Hirschsprung,Reflujo,Cólico del lactante,Gastritis,Enfermedad de Hirschsprung
+102,Prueba diagnóstica definitiva (estándar de oro) para Hirschsprung:,Colon por enema,Manometría rectal,Biopsia rectal por succión (ausencia de ganglios),Ultrasonido,Biopsia rectal por succión (ausencia de ganglios)
+103,Zona del colon más frecuentemente afectada en Hirschsprung:,Ciego,Recto y sigmoides,Colon transverso,Colon ascendente,Recto y sigmoides
+104,Complicación más grave y potencialmente mortal del Hirschsprung:,Estreñimiento crónico,Enterocolitis asociada a Hirschsprung,Fístula anal,Hemorroides,Enterocolitis asociada a Hirschsprung
+105,Fisiopatología de la enfermedad de Hirschsprung:,Infección por rotavirus,Falla en la migración de las células de la cresta neural,Alergia a la proteína de leche de vaca,Isquemia intestinal,Falla en la migración de las células de la cresta neural
+106,"Recién nacido prematuro con distensión abdominal, intolerancia alimentaria y sangre en heces. Radiografía muestra neumatosis intestinal. Diagnóstico:",Vólvulo,Enterocolitis Necrosante (ECN),Atresia ileal,Meconio espeso,Enterocolitis Necrosante (ECN)
+107,Signo radiográfico patognomónico de ECN:,Signo del doble burbuja,Neumatosis intestinal (aire en la pared),Niveles hidroaéreos,Imagen en grano de café,Neumatosis intestinal (aire en la pared)
+108,Clasificación utilizada para estadificar la ECN:,Clasificación de Bell,Clasificación de Zagar,Clasificación de Hinchey,Clasificación de Forrest,Clasificación de Bell
+109,Manejo inicial del paciente con ECN grado II:,"Ayuno, sonda orogástrica, antibióticos y vigilancia",Cirugía inmediata,Alimentación por sonda,Enema de bario,"Ayuno, sonda orogástrica, antibióticos y vigilancia"
+110,Indicación absoluta de cirugía en Enterocolitis Necrosante:,Neumatosis intestinal,Poneumoperitoneo (perforación),Vómito biliar,Sangre en evacuaciones,Poneumoperitoneo (perforación)
+111,"Lactante con debilidad muscular, estreñimiento, llanto débil y pérdida de reflejos tras ingesta de miel. Sospecha:",Síndrome de Guillain-Barré,Botulismo del lactante,Miastenia gravis,Poliomielitis,Botulismo del lactante
+112,Agente causal del botulismo:,Clostridium difficile,Clostridium botulinum,Bacillus cereus,Staphylococcus aureus,Clostridium botulinum
+113,Mecanismo de la toxina botulínica:,Bloquea liberación de acetilcolina,Inhibe la acetilcolinesterasa,Destruye la mielina,Bloquea receptores de dopamina,Bloquea liberación de acetilcolina
+114,Tratamiento específico para botulismo del lactante:,Antibióticos (Penicilina),Inmunoglobulina botulínica humana (BabyBIG),Piridostigmina,Plasmaféresis,Inmunoglobulina botulínica humana (BabyBIG)
+115,Tipo de parálisis característica en botulismo:,Parálisis espástica,Parálisis flácida descendente,Parálisis flácida ascendente,Hemiparesia,Parálisis flácida descendente
+116,Definición de hipoglucemia neonatal en las primeras 24 horas (punto de corte general):,<60 mg/dL,<45-47 mg/dL,<70 mg/dL,<30 mg/dL,<45-47 mg/dL
+117,Tratamiento de elección para hipoglucemia sintomática en el recién nacido:,Bolo de solución glucosada al 10% (2 ml/kg),Alimentación con fórmula,Agua con azúcar vía oral,Glucagón intramuscular,Bolo de solución glucosada al 10% (2 ml/kg)
+118,Hijo de madre diabética tiene mayor riesgo de:,Hiperglucemia,Hipoglucemia por hiperinsulinismo fetal,Anemia,Hipernatremia,Hipoglucemia por hiperinsulinismo fetal
+119,Síntoma común de hipoglucemia en el lactante:,Fiebre,"Irritabilidad, temblores (jitteriness), letargo",Hipertensión,Taquipnea únicamente,"Irritabilidad, temblores (jitteriness), letargo"
+120,Concentración máxima de glucosa permitida por vía periférica para evitar flebitis:,10%,12.50%,25%,50%,12.50%
+121,"Escolar con poliuria, polidipsia, polifagia y pérdida de peso. Ahora con dolor abdominal y respiración de Kussmaul. Sospecha:",Gastroenteritis,Cetoacidosis diabética,Diabetes insípida,Apendicitis,Cetoacidosis diabética
+122,Criterios diagnósticos de Cetoacidosis Diabética (CAD):,"Glucosa >200, pH <7.3, HCO3 <15, cetonuria","Glucosa >126, pH >7.4","Glucosa >200, pH <7.3, HCO3 >22",Cetonas negativas,"Glucosa >200, pH <7.3, HCO3 <15, cetonuria"
+123,Complicación más temida durante el tratamiento de la CAD en niños:,Hipopotasemia,Edema cerebral,Insuficiencia renal,Hipoglucemia,Edema cerebral
+124,Manejo inicial de líquidos en CAD con choque:,Carga de solución salina al 0.9% (10-20 ml/kg),Insulina IV en bolo,Bicarbonato de sodio,Solución glucosada,Carga de solución salina al 0.9% (10-20 ml/kg)
+125,Dosis de infusión de insulina rápida en CAD pediátrica:,1 UI/kg/hora,0.05 a 0.1 UI/kg/hora,0.5 UI/kg/hora,No se usa insulina,0.05 a 0.1 UI/kg/hora
+126,"Lactante con fiebre, fontanela abombada, irritabilidad y rigidez de nuca. Diagnóstico:",Encefalopatía,Meningitis bacteriana,Crisis febril,Hidrocefalia,Meningitis bacteriana
+127,Agente etiológico más común de meningitis en niños de 1 mes a 5 años (en general):,Streptococcus agalactiae,Streptococcus pneumoniae y Neisseria meningitidis,Listeria monocytogenes,E. coli,Streptococcus pneumoniae y Neisseria meningitidis
+128,Hallazgos en LCR compatibles con meningitis bacteriana:,"Glucosa normal, proteínas bajas, células <10","Glucosa baja, proteínas elevadas, pleocitosis neutrofílica","Glucosa alta, proteínas normales, linfocitos",LCR claro con presión normal,"Glucosa baja, proteínas elevadas, pleocitosis neutrofílica"
+129,Tratamiento antibiótico empírico de elección en meningitis para lactantes/escolares:,Ampicilina + Gentamicina,Ceftriaxona + Vancomicina,Penicilina únicamente,Amoxicilina,Ceftriaxona + Vancomicina
+130,Signo de Brudzinski consiste en:,Dolor al extender la pierna,Flexión involuntaria de rodillas al flexionar el cuello,Rigidez de extremidades superiores,Extensión del dedo gordo del pie,Flexión involuntaria de rodillas al flexionar el cuello
+131,Niño que ingiere batería de botón y se aloja en esófago. Conducta:,Observación por 24 horas,Remoción endoscópica de emergencia,Dar laxantes,Esperar a que pase al estómago,Remoción endoscópica de emergencia
+132,Riesgo de una batería de botón alojada en esófago:,Obstrucción únicamente,Quemadura por licuefacción y perforación en pocas horas,Intoxicación por litio,No hay riesgo real,Quemadura por licuefacción y perforación en pocas horas
+133,Si la batería de botón ya está en estómago y el paciente está asintomático:,Endoscopia inmediata,Observación y vigilancia de evacuaciones,Cirugía abierta,Provocar vómito,Observación y vigilancia de evacuaciones
+134,Objeto extraño más comúnmente ingerido por niños:,Baterías,Monedas,Imanes,Alfileres,Monedas
+135,Peligro de ingerir múltiples imanes:,Intoxicación por metales,Atracción entre imanes que causa necrosis y perforación intestinal,Obstrucción pilórica,Ninguna,Atracción entre imanes que causa necrosis y perforación intestinal
+136,Dosis de adrenalina en RCP avanzada pediátrica (IV/IO):,0.1 mg/kg,"0.01 mg/kg (1:10,000)",1 mg total,0.5 mg/kg,"0.01 mg/kg (1:10,000)"
+137,Profundidad recomendada de las compresiones torácicas en niños:,1 cm,Al menos un tercio del diámetro AP del tórax (aprox 5 cm),10 cm,2 cm,Al menos un tercio del diámetro AP del tórax (aprox 5 cm)
+138,Relación compresión:ventilación en RCP pediátrico con DOS reanimadores:,30:2,15:2,3:1,5:1,15:2
+139,Energía para la primera descarga en un ritmo desfibrilable (FV/TVSP):,2 Joules/kg,4 Joules/kg,10 Joules/kg,200 Joules,2 Joules/kg
+140,Frecuencia de ventilación de rescate en pediatría (si tiene pulso pero no respira):,1 ventilación cada 2-3 segundos,1 ventilación cada 5-6 segundos,1 ventilación cada 10 segundos,30 ventilaciones por minuto,1 ventilación cada 2-3 segundos
+141,Recién nacido con scaphoid abdomen (excavado) y dificultad respiratoria grave al nacer. Sospecha:,Atresia de esófago,Hernia diafragmática congénita,Onfalocele,Sepsis neonatal,Hernia diafragmática congénita
+142,Lado más frecuente de la hernia de Bochdalek:,Derecho,Izquierdo,Bilateral,Anterior,Izquierdo
+143,Acción contraindicada en el manejo inicial de hernia diafragmática en sala de partos:,Intubación endotraqueal,Ventilación con bolsa-válvula-mascarilla (ambú),Colocación de sonda orogástrica,Uso de surfactante,Ventilación con bolsa-válvula-mascarilla (ambú)
+144,Causa de la dificultad respiratoria y mortalidad en hernia diafragmática:,Infección,Hipoplasia pulmonar e hipertensión pulmonar,Falla cardiaca izquierda,Prematurez,Hipoplasia pulmonar e hipertensión pulmonar
+145,Tratamiento definitivo de la hernia diafragmática:,Cirugía de urgencia en la primera hora,Estabilización hemodinámica y respiratoria seguida de cirugía,Antibióticos únicamente,No requiere cirugía,Estabilización hemodinámica y respiratoria seguida de cirugía
+146,"Lactante con vómitos, sialorrea e imposibilidad para pasar sonda orogástrica al nacer. Sospecha:",Hernia diafragmática,Atresia de esófago,Estenosis pilórica,Acalasia,Atresia de esófago
+147,Variedad más común de atresia de esófago:,Tipo A (Atresia pura),Tipo C (Atresia distal con fístula traqueoesofágica distal),Tipo E (Fístula en H),Tipo B,Tipo C (Atresia distal con fístula traqueoesofágica distal)
+148,Hallazgo radiográfico en atresia de esófago tipo C:,Ausencia de aire abdominal,Presencia de aire en estómago e intestino,Doble burbuja,Opacidad total del abdomen,Presencia de aire en estómago e intestino
+149,Asociación frecuente de malformaciones en atresia de esófago:,VACTERL,TORCH,CHARGE,PHACE,VACTERL
+150,Posición recomendada para el neonato con atresia de esófago antes de la cirugía:,Decúbito prono,Elevación de la cabeza a 30-45° (antirreflujo),Trendelenburg,Decúbito lateral izquierdo,Elevación de la cabeza a 30-45° (antirreflujo)
+151,"Lactante de 10 meses con llanto súbito, flexión de piernas sobre abdomen y evacuaciones con sangre. Al explorar se palpa masa en ""salchicha"". Diagnóstico:",Apendicitis,Invaginación intestinal,Divertículo de Meckel,Gastroenteritis,Invaginación intestinal
+152,Edad pico de presentación de la invaginación intestinal:,0-2 meses,3 a 12 meses,5 a 10 años,Adolescencia,3 a 12 meses
+153,Punto de partida (lead point) más común de invaginación en niños mayores (>2 años):,Idiopático,Divertículo de Meckel o Pólipos,Infección por Rotavirus,Hiperplasia de placas de Peyer,Divertículo de Meckel o Pólipos
+154,Imagen ecográfica clásica de la invaginación intestinal:,"Imagen en ""doble burbuja""","Imagen en ""dona"" o ""tiro al blanco"" (pseudoriñón)","Imagen en ""grano de café""","Imagen en ""sacacorchos""","Imagen en ""dona"" o ""tiro al blanco"" (pseudoriñón)"
+155,Complicación de la invaginación intestinal no tratada:,Estreñimiento,"Isquemia, perforación y choque",Reflujo,Anemia ferropénica,"Isquemia, perforación y choque"
+156,Principal causa de choque cardiogénico en pediatría:,Infarto al miocardio,Miocarditis viral,Hemorragia,Deshidratación,Miocarditis viral
+157,"Niño con fiebre, taquicardia desproporcionada a la fiebre y hepatomegalia. Sospecha:",Neumonía,Miocarditis,Sepsis,Hepatitis,Miocarditis
+158,Tratamiento de soporte en falla cardiaca por miocarditis:,Cargas masivas de líquidos,"Inotrópicos (dobutamina, milrinona) y diuréticos",Antibióticos de amplio espectro,Epinefrina IM,"Inotrópicos (dobutamina, milrinona) y diuréticos"
+159,Hallazgo común en el ECG de miocarditis:,Ondas T picudas,"Taquicardia sinusal, voltajes bajos, alteraciones del ST-T",Bloqueo AV de tercer grado únicamente,Ritmo nodal,"Taquicardia sinusal, voltajes bajos, alteraciones del ST-T"
+160,Agente viral más comúnmente asociado a miocarditis en niños:,Adenovirus y Coxsackie B,Rotavirus,Hepatitis A,Virus de la rabia,Adenovirus y Coxsackie B
+161,Definición de hipertensión arterial en pediatría (<13 años):,>140/90 mmHg,"Presión arterial > percentil 95 para edad, sexo y talla",>120/80 mmHg,Igual que en el adulto,"Presión arterial > percentil 95 para edad, sexo y talla"
+162,Causa más común de hipertensión secundaria en niños:,Estrés,Enfermedad renal (parénquima o vascular),Coartación de aorta,Feocromocitoma,Enfermedad renal (parénquima o vascular)
+163,Fármaco de elección en emergencia hipertensiva pediátrica para descenso controlado:,Nifedipino VO,Hidralazina o Nitroprusiato IV,Aspirina,Furosemida únicamente,Hidralazina o Nitroprusiato IV
+164,Coartación de aorta se caracteriza por:,Hipertensión en miembros superiores y pulsos débiles en inferiores,Hipotensión generalizada,Cianosis intensa,Soplo diastólico,Hipertensión en miembros superiores y pulsos débiles en inferiores
+165,Definición de crisis hipertensiva:,Percentil 90,Elevación grave de PA con o sin daño a órgano blanco (>Percentil 95 + 30 mmHg),PA 110/70,Solo si hay cefalea,Elevación grave de PA con o sin daño a órgano blanco (>Percentil 95 + 30 mmHg)
+166,"Niño de 4 años que tras correr presenta cianosis, taquipnea y se pone en cuclillas. Diagnóstico:",Asma,Crisis de hipoxia (Tetralogía de Fallot),Insuficiencia cardiaca,Neumotórax,Crisis de hipoxia (Tetralogía de Fallot)
+167,Efecto de la posición de cuclillas en la Tetralogía de Fallot:,Disminuye el retorno venoso,Aumenta las resistencias vasculares sistémicas y mejora el flujo pulmonar,Aumenta la frecuencia cardiaca,Disminuye la presión arterial,Aumenta las resistencias vasculares sistémicas y mejora el flujo pulmonar
+168,Fármaco que puede usarse para mejorar el flujo pulmonar en crisis de hipoxia:,Furosemida,Morfina y Propranolol,Digoxina,Salbutamol,Morfina y Propranolol
+169,"Imagen radiológica de ""corazón en bota"" o ""zueco"":",Transposición de grandes vasos,Tetralogía de Fallot,Comunicación interauricular,Drenaje anómalo de venas pulmonares,Tetralogía de Fallot
+170,"Cardiopatía que presenta el signo de la ""Ene"" o ""3"" en radiografía de tórax:",Tetralogía de Fallot,Coartación de aorta,CIA,CIV,Coartación de aorta
+171,Adolescente con ingesta de 20 tabletas de paracetamol hace 2 horas. Acción:,Esperar a que tenga síntomas,Administrar carbón activado e iniciar N-acetilcisteína,Realizar diálisis,Inducir el vómito,Administrar carbón activado e iniciar N-acetilcisteína
+172,Nomograma utilizado para decidir tratamiento en intoxicación por paracetamol:,Nomograma de Rumack-Matthew,Nomograma de West,Nomograma de Tylenol,Nomograma de Parkland,Nomograma de Rumack-Matthew
+173,Tiempo ideal para iniciar N-acetilcisteína para máxima eficacia:,Primeras 8 horas,Después de 24 horas,Cualquier momento,Después de que suban las transaminasas,Primeras 8 horas
+174,Principal órgano afectado por toxicidad del paracetamol:,Corazón,Hígado (Necrosis hepática),Riñón,Pulmón,Hígado (Necrosis hepática)
+175,Metabolito tóxico del paracetamol:,Glutatión,NAPQI (N-acetil-p-benzoquinona imina),Ácido acético,Sulfato,NAPQI (N-acetil-p-benzoquinona imina)
+176,"Paciente de 3 años, antecedente de exposición a temperaturas extremas sin hidratación, presenta estupor, piel seca y caliente, temperatura rectal de 41°C. Diagnóstico:",Fiebre por faringitis,Golpe de calor,Agotamiento por calor,Sepsis,Golpe de calor

@@ -14,7 +14,7 @@ export async function POST(req: Request) {
     const data = await req.json();
     const { email, nombre, puntaje, porcentaje, especialidades, detalle } = data;
 
-    const normalizedEmail = email.replace(/[^a-zA-Z0-9]/g, '_');
+    const normalizedEmail = email.toLowerCase().replace(/[^a-zA-Z0-9]/g, '_');
     const timestamp = Date.now();
     const fileName = `${normalizedEmail}_${timestamp}.json`;
     const filePath = path.join(resultadosDir, fileName);
@@ -66,7 +66,7 @@ export async function GET(req: Request) {
       return NextResponse.json({ resultados });
     }
 
-    const normalizedEmail = email.replace(/[^a-zA-Z0-9]/g, '_');
+    const normalizedEmail = email.toLowerCase().replace(/[^a-zA-Z0-9]/g, '_');
     const files = fs.readdirSync(resultadosDir);
     const userFiles = files.filter(f => f.startsWith(normalizedEmail + '_'));
 

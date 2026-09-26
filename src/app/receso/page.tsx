@@ -10,7 +10,7 @@ export default function Receso() {
 
   useEffect(() => {
     if (!user) router.push('/');
-    if (examFinished) router.push('/resultados');
+    if (examFinished && user) router.push(`/consultar?email=${encodeURIComponent(user.email)}`);
     if (currentBlock === 1) router.push('/simulacro'); // Should only be here if currentBlock === 2 (Block 1 finished)
   }, [user, examFinished, currentBlock, router]);
 

@@ -33,7 +33,7 @@ export default function Simulacro() {
     }
 
     if (examFinished) {
-      router.push('/resultados');
+      router.push(`/consultar?email=${encodeURIComponent(user.email)}`);
       return;
     }
 

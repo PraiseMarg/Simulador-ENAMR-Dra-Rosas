@@ -14,10 +14,16 @@ export default function Registro() {
     e.preventDefault();
     if (!name || !email) return;
     
-    resetExam(); // Clear previous state
-    setUser({ name, email });
-    setSimulatorId(simulator);
-    setAttemptId(`ATT-${Date.now()}`);
+    useExamStore.setState({
+      user: { name, email },
+      attemptId: `ATT-${Date.now()}`,
+      simulatorId: simulator,
+      currentBlock: 1,
+      answers: {},
+      flagged: {},
+      timeLeft: 180 * 60,
+      examFinished: false
+    });
     router.push('/simulacro');
   };
 

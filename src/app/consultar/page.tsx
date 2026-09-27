@@ -61,7 +61,7 @@ function ConsultaContent() {
           
           <div className="bg-blue-900 text-white p-8 flex justify-between items-center print:bg-white print:text-black print:border-b-2">
             <div>
-              <h1 className="text-2xl font-bold mb-1">Reporte de Resultados ENARM</h1>
+              <h1 className="text-2xl font-bold mb-1">Reporte de Resultados ENARM ({selectedReport.simulatorId === 'v2' ? 'Simulador V2' : 'Simulador V1'})</h1>
               <p className="text-blue-200 print:text-gray-600">{selectedReport.nombre} ({selectedReport.email})</p>
               <p className="text-sm text-blue-300 mt-2 print:text-gray-500">Fecha: {new Date(selectedReport.fecha).toLocaleString()}</p>
             </div>

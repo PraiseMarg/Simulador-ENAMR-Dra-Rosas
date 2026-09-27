@@ -16,15 +16,17 @@ interface Reactivo {
 export default function Respuestas() {
   const [reactivos, setReactivos] = useState<Reactivo[]>([]);
   const [loading, setLoading] = useState(true);
+  const [simulator, setSimulator] = useState<'v1' | 'v2'>('v1');
 
   useEffect(() => {
-    fetch('/api/examenes')
+    setLoading(true);
+    fetch(`/api/examenes?simId=${simulator}`)
       .then(res => res.json())
       .then(data => {
         if (data.reactivos) setReactivos(data.reactivos);
         setLoading(false);
       });
-  }, []);
+  }, [simulator]);
 
   if (loading) {
     return (
@@ -42,8 +44,11 @@ export default function Respuestas() {
           <div className="flex items-center gap-4 text-center md:text-left">
             <BookOpen className="w-10 h-10 opacity-90 hidden md:block" />
             <div>
-              <h1 className="text-2xl md:text-3xl font-bold">Guía de Respuestas Correctas</h1>
-              <p className="text-blue-200">Revisión general de los 280 reactivos del simulador</p>
+              <h1 className="text-2xl md:text-3xl font-bold">Guía de Respuestas</h1>
+              <div className="mt-2 flex gap-2 justify-center md:justify-start">
+                <button onClick={() => setSimulator('v1')} className={`px-3 py-1 rounded text-sm font-bold ${simulator === 'v1' ? 'bg-white text-blue-900' : 'bg-blue-800 text-blue-200'}`}>Simulador V1</button>
+                <button onClick={() => setSimulator('v2')} className={`px-3 py-1 rounded text-sm font-bold ${simulator === 'v2' ? 'bg-white text-blue-900' : 'bg-blue-800 text-blue-200'}`}>Simulador V2</button>
+              </div>
             </div>
           </div>
           <Link href="/" className="px-6 py-2 bg-white/10 hover:bg-white/20 border border-white/30 rounded-lg text-white font-medium transition whitespace-nowrap">

@@ -3,7 +3,8 @@ const Papa = require('papaparse');
 const path = require('path');
 
 const dir = path.join(__dirname, 'examenes');
-const outputJson = path.join(dir, 'reactivos.json');
+const v1Json = path.join(dir, 'simulador1.json');
+const v2Json = path.join(dir, 'simulador2.json');
 
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.csv'));
 let allQuestions = [];
@@ -21,7 +22,6 @@ files.forEach(f => {
 
   results.data.forEach(row => {
     const keys = Object.keys(row);
-    // Find keys ignoring weird encodings and spaces
     const getVal = (searchStrings) => {
        const key = keys.find(k => {
            const normalizedKey = k.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -47,16 +47,14 @@ files.forEach(f => {
     if (!resp) return;
 
     let correctaIdx = opciones.findIndex(o => o.toLowerCase() === resp.trim().toLowerCase());
-    
     if (correctaIdx === -1) {
        correctaIdx = opciones.findIndex(o => o.toLowerCase().includes(resp.trim().toLowerCase()) || resp.trim().toLowerCase().includes(o.toLowerCase()));
     }
     if (correctaIdx === -1) correctaIdx = 0;
-
     if (pregunta.length < 5) return;
 
     allQuestions.push({
-      id: `REQ-${idCounter.toString().padStart(3, '0')}`,
+      id: `REQ-${idCounter.toString().padStart(4, '0')}`,
       caso_clinico: caso.trim(),
       pregunta: pregunta.trim(),
       opciones: opciones,
@@ -68,17 +66,10 @@ files.forEach(f => {
   });
 });
 
-if (allQuestions.length > 280) {
-  // shuffle before slicing? The user wants distribution. Let's just take first 280 for now
-  allQuestions = allQuestions.slice(0, 280);
-} else if (allQuestions.length > 0) {
-  let originalLen = allQuestions.length;
-  while (allQuestions.length < 280) {
-      const q = {...allQuestions[allQuestions.length % originalLen]};
-      q.id = `REQ-${(allQuestions.length + 1).toString().padStart(3, '0')}`;
-      allQuestions.push(q);
-  }
-}
+const sim1 = allQuestions.slice(0, 280);
+const sim2 = allQuestions.slice(280, 560);
 
-fs.writeFileSync(outputJson, JSON.stringify(allQuestions, null, 2), 'utf-8');
-console.log(`Guardados ${allQuestions.length} reactivos en reactivos.json usando data real.`);
+fs.writeFileSync(v1Json, JSON.stringify(sim1, null, 2), 'utf-8');
+fs.writeFileSync(v2Json, JSON.stringify(sim2, null, 2), 'utf-8');
+
+console.log(`Generados simulador1.json (${sim1.length} preguntas) y simulador2.json (${sim2.length} preguntas).`);

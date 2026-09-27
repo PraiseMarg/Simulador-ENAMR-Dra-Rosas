@@ -4,6 +4,7 @@ import { persist } from 'zustand/middleware';
 interface ExamState {
   user: { name: string; email: string } | null;
   attemptId: string | null;
+  simulatorId: 'v1' | 'v2' | null;
   currentBlock: 1 | 2;
   answers: Record<string, number>; // questionId -> optionIndex
   flagged: Record<string, boolean>; // questionId -> boolean
@@ -11,6 +12,7 @@ interface ExamState {
   examFinished: boolean;
   setUser: (user: { name: string; email: string }) => void;
   setAttemptId: (id: string) => void;
+  setSimulatorId: (id: 'v1' | 'v2') => void;
   setAnswer: (qId: string, optIdx: number) => void;
   toggleFlag: (qId: string) => void;
   setTimeLeft: (time: number) => void;
@@ -25,6 +27,7 @@ export const useExamStore = create<ExamState>()(
     (set, get) => ({
       user: null,
       attemptId: null,
+      simulatorId: null,
       currentBlock: 1,
       answers: {},
       flagged: {},
@@ -33,6 +36,7 @@ export const useExamStore = create<ExamState>()(
 
       setUser: (user) => set({ user }),
       setAttemptId: (id) => set({ attemptId: id }),
+      setSimulatorId: (id) => set({ simulatorId: id }),
       setAnswer: (qId, optIdx) => set((state) => ({ answers: { ...state.answers, [qId]: optIdx } })),
       toggleFlag: (qId) => set((state) => ({ flagged: { ...state.flagged, [qId]: !state.flagged[qId] } })),
       setTimeLeft: (time) => set({ timeLeft: time }),
@@ -49,6 +53,7 @@ export const useExamStore = create<ExamState>()(
       resetExam: () => set({
         user: null,
         attemptId: null,
+        simulatorId: null,
         currentBlock: 1,
         answers: {},
         flagged: {},

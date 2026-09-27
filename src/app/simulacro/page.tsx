@@ -37,8 +37,8 @@ export default function Simulacro() {
       return;
     }
 
-    // Fetch reactivos
-    fetch('/api/examenes')
+    // Fetch reactivos with simId
+    fetch(`/api/examenes?simId=${simulatorId || 'v1'}`)
       .then(res => res.json())
       .then(data => {
         if (data.reactivos) {
@@ -48,7 +48,7 @@ export default function Simulacro() {
         }
         setLoading(false);
       });
-  }, [user, currentBlock, examFinished, router]);
+  }, [user, currentBlock, examFinished, simulatorId, router]);
 
   useEffect(() => {
     if (loading || examFinished) return;

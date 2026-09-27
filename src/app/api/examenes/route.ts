@@ -2,11 +2,16 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-export async function GET() {
+export async function GET(req: Request) {
   try {
-    const filePath = path.join(process.cwd(), 'examenes', 'reactivos.json');
+    const { searchParams } = new URL(req.url);
+    const simId = searchParams.get('simId') || 'v1';
+    
+    const fileName = simId === 'v2' ? 'simulador2.json' : 'simulador1.json';
+    const filePath = path.join(process.cwd(), 'examenes', fileName);
+    
     if (!fs.existsSync(filePath)) {
-      return NextResponse.json({ error: 'reactivos.json no encontrado' }, { status: 404 });
+      return NextResponse.json({ error: `${fileName} no encontrado` }, { status: 404 });
     }
     const data = fs.readFileSync(filePath, 'utf-8');
     const reactivos = JSON.parse(data);

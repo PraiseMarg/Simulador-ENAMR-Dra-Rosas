@@ -79,6 +79,7 @@ export default function AdminDashboard() {
                 <th className="p-4 font-bold border-b border-slate-200">Fecha</th>
                 <th className="p-4 font-bold border-b border-slate-200">Alumno</th>
                 <th className="p-4 font-bold border-b border-slate-200">Correo</th>
+                <th className="p-4 font-bold border-b border-slate-200">Versión</th>
                 <th className="p-4 font-bold border-b border-slate-200">Aciertos</th>
                 <th className="p-4 font-bold border-b border-slate-200">Porcentaje</th>
                 <th className="p-4 font-bold border-b border-slate-200 text-center">Acción</th>
@@ -90,6 +91,7 @@ export default function AdminDashboard() {
                   <td className="p-4 text-sm text-slate-600">{new Date(r.fecha).toLocaleString()}</td>
                   <td className="p-4 font-medium text-slate-800">{r.nombre}</td>
                   <td className="p-4 text-sm text-slate-500">{r.email}</td>
+                  <td className="p-4 text-sm font-semibold text-slate-600 uppercase">{r.simulatorId || 'V1'}</td>
                   <td className="p-4 font-bold text-blue-700">{r.puntaje}</td>
                   <td className="p-4">
                     <span className={`px-3 py-1 rounded-full text-xs font-bold ${r.porcentaje >= 60 ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>

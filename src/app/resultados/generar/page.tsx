@@ -6,7 +6,7 @@ import { Loader2 } from 'lucide-react';
 
 export default function GenerarResultado() {
   const router = useRouter();
-  const { user, answers, examFinished } = useExamStore();
+  const { user, answers, examFinished, simulatorId } = useExamStore();
   const [error, setError] = useState('');
 
   useEffect(() => {
@@ -18,7 +18,7 @@ export default function GenerarResultado() {
     const processResults = async () => {
       try {
         // Fetch original questions to compare
-        const res = await fetch('/api/examenes');
+        const res = await fetch(`/api/examenes?simId=${simulatorId || 'v1'}`);
         const data = await res.json();
         const reactivos = data.reactivos;
 
@@ -59,6 +59,7 @@ export default function GenerarResultado() {
         const payload = {
           nombre: user.name,
           email: user.email,
+          simulatorId: simulatorId || 'v1',
           fecha: new Date().toISOString(),
           puntaje: aciertos,
           porcentaje,

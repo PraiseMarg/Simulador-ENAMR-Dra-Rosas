@@ -17,7 +17,7 @@ interface Reactivo {
 export default function Simulacro() {
   const router = useRouter();
   const { 
-    user, currentBlock, answers, flagged, timeLeft, examFinished,
+    user, currentBlock, answers, flagged, timeLeft, examFinished, simulatorId,
     setAnswer, toggleFlag, decrementTime, finishBlock, finishExam
   } = useExamStore();
 
